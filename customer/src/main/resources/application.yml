@@ -6,7 +6,7 @@ spring:
   profiles: default
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/dschema?useSSL=false&characterEncoding=UTF-8&serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/dbschema?useSSL=false&characterEncoding=UTF-8&serverTimezone=UTC
     username: root
     password: jtkimdb7
   jpa:
